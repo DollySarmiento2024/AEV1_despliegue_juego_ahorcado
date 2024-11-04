@@ -16,6 +16,21 @@ h1 {
     animation: animacion_typing 3s forwards, 0.3s step-end infinite;
 }
 
+
+span {
+    font-size: 1.2em;
+    animation: parpadeo 1s infinite; /* Aplica la animación al span */
+}
+
+@keyframes parpadeo {
+    0%, 100% {
+        color:rgb(200, 0, 0);
+    }
+    50% {
+        color:rgb(0, 0, 0);
+    }
+}
+
 /* Animación de escritura */
 @keyframes animacion_typing {
     from {
