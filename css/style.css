@@ -24,7 +24,19 @@ h1:hover {
     transform: scale(1.1);
 }
 
+span {
+    
+    animation: parpadeo 1s infinite; /* Aplica la animación al span */
+}
 
+@keyframes parpadeo {
+    0%, 100% {
+        color:rgb(200, 0, 0);
+    }
+    50% {
+        color:rgb(0, 0, 0);
+    }
+}
 
 form {
     margin-left: 30%;
